@@ -6,7 +6,7 @@ const productSlice = createSlice({
     products: [],
     selectedProduct: null,
     status: "idle",
-    searchQuery: "",  // ✅ Added for search functionality
+    searchQuery: "",  
   },
   reducers: {
     setProducts: (state, action) => {
